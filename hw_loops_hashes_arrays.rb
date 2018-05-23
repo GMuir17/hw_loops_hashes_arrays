@@ -7,8 +7,14 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 # Complete these tasks:
 
 #1. Add `"Edinburgh Waverley"` to the end of the array
+stops.push("Edinburgh Waverley")
+# p stops
 #2. Add `"Glasgow Queen St"` to the start of the array
+stops.unshift("Glasgow Queen St")
+# p stops
 #3. Add `"Polmont"` at the appropriate point (between `"Falkirk High"` and `"Linlithgow"`)
+stops.insert(4, "Polmont")
+# p stops
 #4. Work out the index position of `"Linlithgow"`
 #5. Remove `"Livingston"` from the array using its name
 #6. Delete `"Cumbernauld"` from the array by index
@@ -119,11 +125,3 @@ united_kingdom = [
 #2. Create a Hash for Northern Ireland and add it to the `united_kingdom` array (The capital is Belfast, and the population is 1,811,000).
 #3. Use a loop to print the names of all the countries in the UK.
 #4. Use a loop to find the total population of the UK.
-
-
-Add CommentCollapse 
-Jump
-Mark as read (esc)
-Message Input
-
-Message cohort-e22
