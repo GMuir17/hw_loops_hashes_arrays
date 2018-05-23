@@ -33,9 +33,9 @@ stops.length()
 #9. Reverse the positions of the stops in the array
 # stops.reverse()
 #10. Print out all the stops using a for loop
-for stop in stops
-  p stop
-end
+# for stop in stops
+#   p stop
+# end
 
 # Exercise B
 
@@ -100,9 +100,14 @@ users = {
 # Complete these tasks:
 
 #1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
+users["Jonathan"][:twitter]
 #2. Get Erik's hometown
+users["Erik"][:home_town]
 #3. Get the array of Erik's lottery numbers
+users["Erik"][:lottery_numbers]
 #4. Get the type of Avril's pet Monty
+users["Avril"][:pets][0][:species]
+users["Avril"][:pets][0][:species].class()
 #5. Get the smallest of Erik's lottery numbers
 #6. Return an array of Avril's lottery numbers that are even
 #7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
