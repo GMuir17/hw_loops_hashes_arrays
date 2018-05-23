@@ -26,12 +26,16 @@ stops.delete_at(2)
 #7. How many stops there are in the array?
 stops.length()
 #8. How many ways can we return `"Falkirk High"` from the array?
-p stops.at(2)
-return stops[2]
-p stops[2]
-p stops.fetch(2)
+# return stops[2]
+# return stops.at(2)
+# return stops[2]
+# return stops.fetch(2)
 #9. Reverse the positions of the stops in the array
+# stops.reverse()
 #10. Print out all the stops using a for loop
+for stop in stops
+  p stop
+end
 
 # Exercise B
 
