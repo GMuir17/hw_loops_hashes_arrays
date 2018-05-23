@@ -122,9 +122,23 @@ new_array = []
 #7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 users["Erik"][:lottery_numbers].push(7)
 #8. Change Erik's hometown to Edinburgh
+users["Erik"][:home_town] = "Edinburgh"
 #9. Add a pet dog to Erik called "Fluffy"
+users["Erik"][:pets].unshift({name: "Fluffy"})
+# p users["Erik"][:pets][0]
 #10. Add another person to the users hash
-
+new_users = {
+  "Caesar" => {
+    twitter: "rubicon15",
+    lottery_numbers: [23, 5, 7, 17, 43, 2],
+    home_town: "Rome",
+    pets: [{
+      name: "Brutus",
+      species: "Dog"
+      }]
+  }
+}
+users.merge(new_users)
 
 # Exercise C
 
